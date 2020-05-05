@@ -50,5 +50,6 @@ mkdir /data/tmp &> /dev/null
 fi
 reg
 echo ""
+rm -rf RegisterVIPSPJK13.sh
 echo "Register Failed"
 echo "Tell @admsprojecthack for register"
