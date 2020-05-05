@@ -178,8 +178,7 @@ sleep 2
 echo "Starting PUBG MOBILE GLOBAL"
 sleep 3
 am start -n com.tencent.ig/com.epicgames.ue4.SplashActivity
-sleep 45
-chmod 000 /data/app/com.tencent.ig*/base.apk
+sleep 30
 PACKAGE='com.tencent.ig'
 while [ $(pidof $PACKAGE) ]
 do
@@ -223,7 +222,6 @@ echo ""
 echo "Wait....."
 echo "Closeing Game Guardian...."
 am force-stop com.hydsxi.rjr
-chmod 755 /data/app/com.tencent.ig*/base.apk
 rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_0.17.0.11801.pak &> /dev/null
 rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/core_patch_0.17.0.11807.pak &> /dev/null
 rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/core_patch_0.17.0.11805.pak &> /dev/null
