@@ -133,12 +133,6 @@ echo ""
 echo "PLEASE READ !"
 echo " "
 sleep 15
-echo "Starting SPJK Game Guardian...\n"
-sleep 1
-am start -n com.hydsxi.rjr/com.hydsxi.rjr.MainActivity
-sleep 2
-am start -n com.hydsxi.rjr/com.hydsxi.rjr.MainActivity
-sleep 2
 echo "Starting PUBG MOBILE GLOBAL"
 sleep 3
 am start -n com.tencent.ig/com.epicgames.ue4.SplashActivity
